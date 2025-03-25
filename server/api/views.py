@@ -7,4 +7,3 @@ from rest_framework import status
 class SampleView(APIView):
     def get(self,request):
         return Response({'message':'success'},status=status.HTTP_200_OK)
-        
